@@ -205,7 +205,7 @@ h1{
     width: 325px;
     height: 325px;
     background-color: #E85B3C;
-    margin: 2% !important;
+    // margin: 2% !important;
     padding: 25% 5%;
     color: white;
     border-radius: 5px;
@@ -213,6 +213,9 @@ h1{
     // display: flex;
     justify-content: center;
     align-items: center;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
     a{
       text-decoration: none;
     }
