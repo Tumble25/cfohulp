@@ -197,14 +197,15 @@ h1{
   padding: 1% 0%;
   background-color: white;
 .landing-page-services{
-  // width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr ;
+  // display: flex;
+  // justify-content: center;
   .landing-page-services-item{
     width: 325px;
     height: 325px;
     background-color: #E85B3C;
-    margin: 2%;
+    margin: 2% !important;
     padding: 25% 5%;
     color: white;
     border-radius: 5px;
