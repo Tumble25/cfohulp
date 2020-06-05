@@ -1,2 +1,43 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner">
+<div class="landing-page-middle">
+    <h1><b>Ga jij maar belangrijke dingen doen, wij doen de rest...</b></h1>
+    <p><i> - CFOhulp </i></p>
+    <div> <%= link_to "Bel mij terug", "#", class: "btn btn-flat" %></div>
+  </div>
+</div>
+
+
+<div class="landing-page-services-container">
+  <div class="landing-page-services">
+    <div class="landing-page-services-item">
+      <%= link_to pages_bedrijven_path do %>
+      <!-- <div class="landing-page-services-item"> -->
+        <h4>Inrichting financiële infrastructuur en reporting</h4>
+        <p>Krijg hulp bij het maken van een financiële professionaliseringsslag!</p>
+      <!-- </div> -->
+    <% end %>
+  </div>
+  <!-- </div> -->
+
+    <!-- <div class="landing-page-services-item"><h4>Ondersteuning bij aan- en/of verkooptraject</h4></div> -->
+     <!-- <div class="landing-page-services-item"><h4>Banklening ophalen</h4></div> -->
+     <div class="landing-page-services-item">
+         <%= link_to pages_investeerders_path do %>
+        <h4>Voor Investeerders*</h4>
+        <p>Hulp bij het invoeren van reporting standaarden bij portfolio bedrijven</p>
+        <% end %>
+    </div>
+    <div class="landing-page-services-item">
+      <%= link_to pages_bedrijven_path do %>
+      <h4> CFO-as-a-Service</h4>
+      <p>Geen full-time CFO nodig, maar wel maandelijkse ondersteuning voor financiële zaken? Probeer CFO-as-a-Service! </p>
+      <% end %>
+    </div>
+    <div class="landing-page-services-item">
+      <%= link_to pages_bedrijven_path do %>
+      <h4>Op maat</h4>
+      <p>Staat uw financiële vraag er niet bij? Laten we dan samen eens kijken naar een op maat gemaakte oplossing!</p>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,246 @@
+h1, h2, h4, p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+  font-size:32px;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  height: 400px;
+  // linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  // background-image: image-url("banner-image.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("banner-image.jpeg");
+  background-position:center top;
+  h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  }
+  p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+
+.banner-bedrijven {
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+  height: 400px;
+  // linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  // background-image: image-url("banner-image.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("banner-bedrijven.jpeg");
+  background-position:center top;
+  h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  }
+  p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+
+.banner-investeerder {
+  background-size: cover;
+  background-position: top;
+  padding: 120px 0;
+  height: 400px;
+  // linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  // background-image: image-url("banner-image.jpeg");
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("banner-investeerder.jpeg");
+  background-position:center;
+  h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
+  p {
+    // text-align: left;
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+
+
+
+// .banner h1 {
+//   margin: 0;
+//   color: white;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+//   font-size: 32px;
+//   font-weight: bold;
+// }
+
+// .banner p {
+//   font-size: 20px;
+//   color: white;
+//   opacity: .7;
+//   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+// }
+
+.landing-page-services-bedrijven{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 0% 5%;
+  .landing-page-services-bedrijven-item{
+    text-align: center;
+    display: block;
+    margin: 6%;
+    .fas{
+      color: #ee7b63;
+      margin-bottom: 5%;
+    }
+    h5{
+      font-weight: bold;
+    }
+  }
+  .landing-page-services-investeerders-item{
+    background-color: #E85B3C;
+    text-align: center;
+    display: block;
+    margin: 15% 6% 6% 6%;
+    border-radius: 5px;
+    padding: 1%;
+    height: 550px;
+    li{
+      text-align: left;
+      font-size: 18px;
+    }
+    .avatar-investeerder-container{
+      display: flex;
+      justify-content: center;
+      margin-bottom: -10%;
+    }
+
+    .avatar-investeerder{
+      position: relative;
+      top: -50px;
+      background-color: #1b1e36;
+      width: 100px;
+      height: 100px;
+      padding: 5%;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      // left: 100px;
+    }
+    .fas{
+      color: white;
+      margin-bottom: 5%;
+    }
+    h5{
+      font-weight: bold;
+      color: white;
+    }
+    p{
+      color: #1B1E36;
+    }
+  }
+}
+
+.bedrijven-banner{
+  background-color: #1B1D36;
+  padding: 120px 0;
+  height: 400px;
+}
+
+.landing-page-middle{
+  display: grid;
+  grid-template-columns: 1fr;
+  // background-color: #1B1D36;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 24px;
+  text-align: center;
+  h2{
+    font-family: "Tofino Bold";
+    font-weight: 700;
+    font-size: 65px;
+  }
+  .landing-page-middle-left{
+    // background-color: red;
+    min-height: 200px;
+    color: white;
+    // display: flex;
+    justify-content: center;
+    p{
+      // color: #E85B3C;
+    }
+  }
+  .landing-page-middle-right{
+    // background-color: white
+  }
+}
+
+.landing-page-services-container{
+  display: flex;
+  justify-content: center;
+  padding: 1% 0%;
+  background-color: white;
+.landing-page-services{
+  // width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  .landing-page-services-item{
+    width: 325px;
+    height: 325px;
+    background-color: #E85B3C;
+    margin: 2%;
+    padding: 25% 5%;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+      text-decoration: none;
+    }
+    p{
+      color: #1B1E36;
+      font-size: 20px;
+    }
+    h4{
+      color: white !important;
+    }
+  }
+  .landing-page-services-item:hover{
+    // font-weight: bold;
+    border-color: #1B1D36;
+    border-width: 5px;
+    border-style: solid;
+    cursor: grab;
+  }
+}
+}
+
+@media(max-width: 450px) {
+  .landing-page-middle{
+    display: block;
+  }
+  .landing-page-services-container .landing-page-services{
+  grid-template-columns: 1fr;
+}
+.landing-page-services-container .landing-page-services .landing-page-services-item {
+  width: auto;
+  }
+}
