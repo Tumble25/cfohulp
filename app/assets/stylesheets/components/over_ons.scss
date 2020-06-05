@@ -1,3 +1,11 @@
+.lead-form-container{
+  background-color: white;
+  border-radius: 5px;
+  height: 1000px;
+  height: fit-content;
+  padding: 5%;
+}
+
 .btn-container{
   display: flex;
   justify-content: center;
@@ -13,11 +21,13 @@
     background-color: white;
     border-radius: 5px;
     height: 1000px;
+    height: fit-content;
   }
   .over_ons_tekst_container{
     top: 100px;
     position: relative;
     padding: 0 10%;
+    min-height: 800px;
   }
 }
 

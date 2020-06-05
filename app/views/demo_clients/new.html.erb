@@ -1,0 +1,27 @@
+<div class="over_ons_container">
+  <div class="lead-form-container">
+    <!-- <div class="avatar_over_ons_container"> -->
+
+
+
+<%= simple_form_for(DemoClient.new) do |f| %>
+<div class="row">
+  <div class="col-12 col-lg-12"><%= f.input :company, placeholder: 'Bedrijfsnaam', label:false %></div>
+</div>
+<div class="row">
+  <div class="col-12 col-lg-12"><%= f.input :first_name, placeholder: 'Voornaam', label:false %></div>
+  <div class="col col-12 col-lg-12"><%= f.input :last_name, placeholder: 'Achternaam', label:false %></div>
+</div>
+
+<div class="row">
+  <div class="col col-12 col-lg-12" ><%= f.input :email, placeholder: 'Email', label:false %></div>
+  <div class="col col-12 col-lg-12" ><%= f.input :telephone, placeholder: 'Telefoonnummer', label:false %></div>
+</div>
+
+<div class="signup-btn"><%= f.button :submit, "Contact" %></div>
+<% end %>
+
+
+<!-- </div> -->
+</div>
+</div>
