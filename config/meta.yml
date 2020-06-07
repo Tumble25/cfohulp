@@ -1,0 +1,5 @@
+meta_product_name: "CFOhulp"
+meta_title: "CFOhulp - CFO services"
+meta_description: "Financiële services voor bedrijven en investeerders"
+meta_image: "banner-imahe.jpeg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
