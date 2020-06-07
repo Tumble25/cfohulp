@@ -18,6 +18,12 @@
   <div class="col col-12 col-lg-12" ><%= f.input :telephone, placeholder: 'Telefoonnummer', label:false %></div>
 </div>
 
+<div class="row">
+  <div class="col-12">
+    <%= f.input :message, placeholder: 'Bericht', label:false, :input_html => {:style => 'width: 100%', :rows => 12} %>
+  </div>
+</div>
+
 <div class="signup-btn"><%= f.button :submit, "Contact" %></div>
 <% end %>
 
