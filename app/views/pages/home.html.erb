@@ -14,6 +14,7 @@
       <!-- <div class="landing-page-services-item"> -->
         <h4>Inrichting financiële infrastructuur en reporting</h4>
         <p>Krijg hulp bij het maken van een financiële professionaliseringsslag!</p>
+        <%= link_to "Lees meer...", pages_bedrijven_path, class: "lees-meer" %>
       <!-- </div> -->
     <% end %>
   </div>
@@ -25,18 +26,21 @@
          <%= link_to pages_investeerders_path do %>
         <h4>Voor Investeerders*</h4>
         <p>Hulp bij het invoeren van reporting standaarden bij portfolio bedrijven</p>
+        <%= link_to "Lees meer...", pages_investeerders_path, class: "lees-meer" %>
         <% end %>
     </div>
     <div class="landing-page-services-item">
       <%= link_to pages_bedrijven_path do %>
       <h4> CFO-as-a-Service</h4>
       <p>Geen full-time CFO nodig, maar wel maandelijkse ondersteuning voor financiële zaken? Probeer CFO-as-a-Service! </p>
+      <%= link_to "Lees meer...", pages_bedrijven_path, class: "lees-meer" %>
       <% end %>
     </div>
     <div class="landing-page-services-item">
       <%= link_to pages_bedrijven_path do %>
       <h4>Op maat</h4>
       <p>Staat uw financiële vraag er niet bij? Laten we dan samen eens kijken naar een op maat gemaakte oplossing!</p>
+      <%= link_to "Lees meer...", pages_bedrijven_path, class: "lees-meer" %>
       <% end %>
     </div>
   </div>
