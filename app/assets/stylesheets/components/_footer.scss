@@ -9,3 +9,15 @@
     font-weight: bold;
   }
 }
+
+
+@media(max-width: 450px) {
+  .footer{
+    display: block;
+    padding: 1%;
+    text-align: center;
+    p{
+      margin-bottom: 0 !important;
+    }
+  }
+}

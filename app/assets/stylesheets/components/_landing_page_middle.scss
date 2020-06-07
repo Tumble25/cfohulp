@@ -119,6 +119,9 @@ h1{
     border-radius: 5px;
     padding: 1%;
     height: 550px;
+    ul{
+      margin: 10% 5%;
+    }
     li{
       text-align: left;
       font-size: 18px;
@@ -148,6 +151,7 @@ h1{
     h5{
       font-weight: bold;
       color: white;
+      margin-bottom: 5%;
     }
     p{
       color: #1B1E36;
@@ -235,6 +239,18 @@ h1{
 }
 }
 
+@media(max-width: 992px){
+  .banner, .banner-bedrijven, .banner-investeerder{
+    padding: 15% 0;
+    height: fit-content;
+  }
+  .landing-page-services-container .landing-page-services .landing-page-services-item {
+  width: auto;
+  height: auto;
+  }
+
+}
+
 @media(max-width: 450px) {
   .landing-page-middle{
     display: block;
@@ -242,7 +258,14 @@ h1{
   .landing-page-services-container .landing-page-services{
   grid-template-columns: 1fr;
 }
-.landing-page-services-container .landing-page-services .landing-page-services-item {
-  width: auto;
-  }
+.landing-page-services-bedrijven{
+  grid-template-columns: 1fr;
+}
+.landing-page-services-bedrijven .landing-page-services-investeerders-item{
+  margin: 15% 1% 6% 1%;
+  height: fit-content;
+}
+// .landing-page-services-container .landing-page-services .landing-page-services-item {
+//   width: auto;
+//   }
 }
