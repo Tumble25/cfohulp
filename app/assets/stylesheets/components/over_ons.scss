@@ -27,7 +27,8 @@
     top: 100px;
     position: relative;
     padding: 0 10%;
-    min-height: 800px;
+    // min-height: 800px;
+    padding-bottom: 100px;
   }
 }
 
@@ -52,4 +53,17 @@
    // vertical-align: middle;
 
    // left: 100px;
+ }
+
+ @media(max-width: 992px){
+  .over_ons_container{
+    padding: 5% 15%;
+  }
+ }
+
+ @media(max-width: 450px) {
+  .over_ons_container{
+    padding: 5%;
+    padding-bottom: 100px;
+  }
  }
