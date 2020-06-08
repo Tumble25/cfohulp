@@ -207,12 +207,14 @@ h1{
   background-color: white;
 .landing-page-services{
   display: grid;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  // grid-template-columns: 1fr 1fr;
   // display: flex;
   // justify-content: center;
   .landing-page-services-item{
     width: 325px;
-    height: 325px;
+    // height: 325px;
+    height: 450px;
     background-color: #E85B3C;
     // margin: 2% !important;
     padding: 25% 5%;
@@ -255,7 +257,14 @@ h1{
   width: auto;
   height: auto;
   }
+}
 
+@media(max-width: 768px){
+  .landing-page-services-container .landing-page-services{
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+    height: auto;
+  }
 }
 
 @media(max-width: 450px) {
