@@ -117,13 +117,15 @@ h1{
     }
   }
   .landing-page-services-investeerders-item{
-    background-color: #E85B3C;
+    background-color: white;
     text-align: center;
     display: block;
     margin: 15% 6% 6% 6%;
     border-radius: 5px;
     padding: 1%;
     height: 550px;
+    border-style: solid;
+    border-color: #E85B3C;
     ul{
       margin: 10% 5%;
     }
@@ -155,7 +157,7 @@ h1{
     }
     h5{
       font-weight: bold;
-      color: white;
+      color: black;
       margin-bottom: 5%;
     }
     p{
